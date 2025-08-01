@@ -1,2 +1,2 @@
 title: "Pages XSS Test"
-payload: "SAFE"
+payload: "<img src=x onerror=alert('XSS')>"
